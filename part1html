@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vikash Mishra | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Vikash Mishra</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="intro">
+      <img src="assets/profile.jpg" alt="Profile Photo" />
+      <h2>Hi, I'm Vikash Mishra</h2>
+      <p>Frontend Developer | WordPress Expert</p>
+      <a href="https://www.linkedin.com/in/vikash2708/" target="_blank">Connect on LinkedIn</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate Frontend Developer with a focus on WordPress, Elementor, Gutenberg, and modern HTML/CSS/JS technologies. I enjoy turning complex problems into simple, beautiful designs.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>WordPress</li>
+      <li>Elementor</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Personal Portfolio</h3>
+      <p>A fully responsive developer portfolio built using HTML/CSS/JS.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>WordPress Site for Client</h3>
+      <p>Designed a fast, SEO-optimized blog using Elementor.</p>
+      <a href="#">View Live</a>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Completed 50+ Freelance WordPress Projects</li>
+      <li>Top Rated on Fiverr</li>
+      <li>Certified WordPress Developer - Udemy</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vikash@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/vikash2708/">/in/vikash2708</a></p>
+    <p>GitHub: <a href="https://github.com/VM-27">github.com/VM-27</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Vikash Mishra</p>
+  </footer>
+</body>
+</html>
